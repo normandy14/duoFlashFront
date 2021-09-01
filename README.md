@@ -12,7 +12,7 @@ The previous [duoTerminal app](https://github.com/normandy14/duoTerminal) lacked
 
 The new GUI with React is:
 
-![App2](https://github.com/normandy14/duoFlashFront/blob/master/screenRecord.webm.mov)
+![App2](https://github.com/normandy14/duoFlashFront/blob/master/screenRecord.gif)
 
 DuoFlash is created for the user that wants to supplement their language learning on the Duolingo platform with additional learning tools. Duolingo is a great learning tool, but its web/android/ios iterface is bulky. The user learns already encountered words on the Duolingo platform with flash cards
 
