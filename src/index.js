@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-axios.get('http://localhost:5000/auth/es')
+axios.get('http://localhost:6500/auth/es')
   .then(res => {
     // console.log(res.data);
     ReactDOM.render(
