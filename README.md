@@ -10,7 +10,7 @@ The previous [duoTerminal app](https://github.com/normandy14/duoTerminal) lacked
 
 ![App](https://github.com/normandy14/duoTerminal/blob/master/doc/screenshot.png?raw=true)
 
-The new GUI with React is:
+The new GUI with React is the following:
 
 ![App2](https://github.com/normandy14/duoFlashFront/blob/master/screenRecord.gif)
 
