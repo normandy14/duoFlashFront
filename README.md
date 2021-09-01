@@ -1,14 +1,28 @@
-# DuoFlash Front
+# DuoFlashFront
+
+![Duo](https://vignette.wikia.nocookie.net/duolingo/images/b/be/Duo_2019.png/revision/latest?cb=20190307143704)
 
 This is the front end of the improved [DuoTerminal App](https://github.com/normandy14/duoTerminal).
 
-## Before Getting Started
+## Motivation
+
+The previous [duoTerminal app](https://github.com/normandy14/duoTerminal) lacked a proper modern gui for use and navigation. Instead, it relies on the terminal for input and output. The interaction is like the following:
+
+![App](https://github.com/normandy14/duoTerminal/blob/master/doc/screenshot.png?raw=true)
+
+The new GUI with React is:
+
+![App2](https://github.com/normandy14/duoFlashFront/blob/master/screenRecord.webm.mov)
+
+DuoFlash is created for the user that wants to supplement their language learning on the Duolingo platform with additional learning tools. Duolingo is a great learning tool, but its web/android/ios iterface is bulky. The user learns already encountered words on the Duolingo platform with flash cards
+
+In addition, the duoTerminal project is archived because it was difficult to maintain because it was poorly written in some aspects. I document this in the previous project, [duoTerminal app](https://github.com/normandy14/duoTerminal)
+
+# Getting Started with React App
 
 This react app requires the backend to be running. Here is the [DuoFlash backend](https://github.com/normandy14/duoFlashBack). Follow Getting started to quickly set up.
 
 The front end and back end runs local or runs on the cloud. The latter requites the developer to tweak the Axios (a node library for making http requests) Get/Post requests (easy for mid-level fullstack developer)
-
-# Getting Started with  React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -41,42 +55,28 @@ By default, open [http://localhost:5000](http://localhost:5000) to view producti
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+:newspaper: Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Versioning
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:card_index: We use [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) for versioning.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Authors
 
-## Learn More
+* :ocean: **Normandy14** - *Initial work* - [Github Account](https://github.com/Normandy14)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+:newspaper: This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details.
 
-### Code Splitting
+<!--
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->
