@@ -1,7 +1,14 @@
-# duoFlashFront
-The React front end for the duoFlash project
+# DuoFlash Front
 
-# Getting Started with Create React App
+This is the front end of the improved [DuoTerminal App](https://github.com/normandy14/duoTerminal).
+
+## Before Getting Started
+
+This react app requires the backend to be running. Here is the [DuoFlash backend](https://github.com/normandy14/duoFlashBack). Follow Getting started to quickly set up.
+
+The front end and back end runs local or runs on the cloud. The latter requites the developer to tweak the Axios (a node library for making http requests) Get/Post requests (easy for mid-level fullstack developer)
+
+# Getting Started with  React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,6 +36,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+By default, open [http://localhost:5000](http://localhost:5000) to view production buil in the browser
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
