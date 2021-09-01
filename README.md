@@ -1,5 +1,12 @@
-# duoFlashFront
-The React front end for the duoFlash project
+# DuoFlash Front
+
+This is the front end of the improved [DuoTerminal App](https://github.com/normandy14/duoTerminal).
+
+## Important
+
+This react app requires the backend to be running. Here is the [duoFlash backend](https://github.com/normandy14/duoFlashBack). Follow Getting started to quickly set up.
+
+The front end and back end runs local or runs on the cloud. The latter requites the developer to tweak the Axios (a node library for making http requests) Get/Post requests (easy for mid-level fullstack developer)
 
 # Getting Started with Create React App
 
