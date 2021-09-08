@@ -6,13 +6,15 @@ This is the front end of the improved [DuoTerminal App](https://github.com/norma
 
 ## Motivation
 
-The previous [duoTerminal app](https://github.com/normandy14/duoTerminal) lacked a proper modern gui for use and navigation. Instead, it relies on the terminal for input and output. The interaction is like the following:
-
-![App](https://github.com/normandy14/duoTerminal/blob/master/doc/screenshot.png?raw=true)
+The previous [duoTerminal app](https://github.com/normandy14/duoTerminal) lacked a proper modern gui for use and navigation. Instead, it relies on the terminal for input and output. 
 
 The new GUI with React is the following:
 
 ![App2](https://github.com/normandy14/duoFlashFront/blob/master/screenRecord.gif)
+
+The old GUI with bash is the following: 
+
+![App](https://github.com/normandy14/duoTerminal/blob/master/doc/screenshot.png?raw=true)
 
 DuoFlash is created for the user that wants to supplement their language learning on the Duolingo platform with additional learning tools. Duolingo is a great learning tool, but its web/android/ios iterface is bulky. The user learns already encountered words on the Duolingo platform with flash cards.
 
