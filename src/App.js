@@ -7,7 +7,7 @@ class App extends Component {
     super(props);
     this.state = {
       index: 0,
-      filteredDict: this.props.transDict,
+      propsDict: this.props.transDict,
       numCycle: 1,
       components: []
     }
@@ -15,7 +15,7 @@ class App extends Component {
 
   cycleIndex = () => {
     let nextIndex = this.state.index + 1;
-    let cycleSize = Object.keys(this.state.filteredDict).length;
+    let cycleSize = Object.keys(this.state.propsDict).length;
     if (this.state.index >= cycleSize) {
       let newNumCycle = this.state.numCycle + 1;
       this.setState ({
@@ -28,22 +28,39 @@ class App extends Component {
     })
   }
   
-  componentDidMount() {
-    if (this.state.index === 0) {
-      let words = this.state.filteredDict;
-      let keys = Object.keys(words);
-      let componentsArray = []
-      keys.map((key) => {
-        componentsArray.push(<Card target={key} english={this.props.transDict[key]}/>)
-      });
-      this.setState({
-        components : componentsArray
-      });
-    }
+  generateAndSetComponents = () => {
+    let words = this.state.propsDict; // this is an exact copy from props
+    let keys = Object.keys(words); // get all the keys from the struct (target language)
+    let componentsArray = []; // array to be pushed upon
+    keys.map((key) => {
+      componentsArray.push(<Card target={key} english={this.props.transDict[key]}/>)
+    });
+    
+    // update state with new component array
+    this.setState({
+      components : componentsArray
+    });
   }
   
+  // ComponentDidMount is triggered only once immediately after the initial rendering. ComponentDidUpdate does not occur for the initial render
+  
+  
+  componentDidMount() {
+    console.log("Component Did Mount");
+    this.generateAndSetComponents();
+  }
+  
+  /*
+  componentDidUpdate() {
+    console.log("Component Did Update")
+    if (this.state.index === 0) {
+      console.log("If statement fired!!!")
+    
+    }
+  }
+  */
+  
   render() {
-    let keys = Object.keys(this.state.filteredDict);
     let currentWord = this.state.components[this.state.index];
     let numCycle = this.state.numCycle;
     return (
