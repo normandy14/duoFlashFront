@@ -14,7 +14,7 @@ The new GUI with React is the following:
 
 ![App2](https://github.com/normandy14/duoFlashFront/blob/master/screenRecord.gif)
 
-DuoFlash is created for the user that wants to supplement their language learning on the Duolingo platform with additional learning tools. Duolingo is a great learning tool, but its web/android/ios iterface is bulky. The user learns already encountered words on the Duolingo platform with flash cards
+DuoFlash is created for the user that wants to supplement their language learning on the Duolingo platform with additional learning tools. Duolingo is a great learning tool, but its web/android/ios iterface is bulky. The user learns already encountered words on the Duolingo platform with flash cards.
 
 In addition, the duoTerminal project is archived because it was difficult to maintain because it was poorly written in some aspects. I document this in the previous project, [duoTerminal app](https://github.com/normandy14/duoTerminal)
 
@@ -22,7 +22,7 @@ In addition, the duoTerminal project is archived because it was difficult to mai
 
 This react app requires the backend to be running. Here is the [DuoFlash backend](https://github.com/normandy14/duoFlashBack). Follow Getting started to quickly set up.
 
-The front end and back end runs local or runs on the cloud. The latter requites the developer to tweak the Axios (a node library for making http requests) Get/Post requests (easy for mid-level fullstack developer)
+The front end and back end runs local or runs on the cloud. The latter requites the developer to tweak the Axios (a node library for making http requests) Get/Post requests (easy for mid-level fullstack developer).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
