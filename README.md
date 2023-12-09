@@ -22,7 +22,7 @@ DuoFlash is created for the user that wants to supplement their language learnin
 
 In addition, the duoTerminal project is archived because it was difficult to maintain because it was poorly written in some aspects. I document this in the previous project, [duoTerminal app](https://github.com/normandy14/duoTerminal)
 
-# Getting Started with React App
+## Getting Started With React App
 
 This react app requires the backend to be running. Here is the [DuoFlash backend](https://github.com/normandy14/duoFlashBack). Follow Getting started to quickly set up.
 
@@ -30,11 +30,11 @@ The front end and back end runs local or runs on the cloud. The latter requites 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -42,12 +42,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
